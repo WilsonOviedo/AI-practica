@@ -1,4 +1,6 @@
+# %%
 #!/usr/bin/env python3
+
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import tensorflow as tf
@@ -112,3 +114,4 @@ for i in range(numimages):
 	plot_value_array(i, predictions, test_labels)
 
 plt.show()
+# %%
