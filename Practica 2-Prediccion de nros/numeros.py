@@ -84,7 +84,7 @@ def plot_image(i, predictions_array, true_labels, images):
 
 	predicted_label = np.argmax(predictions_array)
 	if predicted_label == true_label:
-		color = 'blue'
+		color = 'white'
 	else:
 		color = 'red'
 
