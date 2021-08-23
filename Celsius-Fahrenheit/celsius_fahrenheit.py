@@ -23,8 +23,8 @@ print("Comenzando entrenamiento...")
 historial = modelo.fit(celsius, fahrenheit, epochs=300, verbose=False)
 print("Modelo entrenado!")
 
-resultado = modelo.predict([100.0])
+resultado = round(float( modelo.predict([100.0])))
 print("Prediccion: 100 grados celsius son " + str(resultado) + " fahrenheit!")
 
 #Exportar el modelo en formato h5
-modelo.save('celsius_a_fahrenheit.h5')
+#modelo.save('celsius_a_fahrenheit.h5')
