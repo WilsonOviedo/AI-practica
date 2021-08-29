@@ -28,7 +28,7 @@ cv.imshow('Foto',img)
 #cv.imshow('Linea',blank)
 
 #5. Mostrar Texto
-cv.putText(blank,'Hola',(255,255),cv.FONT_HERSHEY_TRIPLEX,1.0,(0,255,0),2)
+cv.putText(blank,'Hola, mi nombre es Wilson',(0,255),cv.FONT_HERSHEY_TRIPLEX,1.0,(0,255,0),2)
 cv.imshow('Text',blank)
 
 
